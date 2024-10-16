@@ -1,0 +1,704 @@
+body {
+    font-family: sans-serif;
+}
+
+html{
+zoom: 100%; 
+}
+
+body {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    width: 100%;
+}
+header{
+    position: absolute;
+    width: 1280px;
+    height: 649px;
+    left: 0px;
+    top: 0px;
+/* Frame 1 */
+}
+.logo{
+
+position: absolute;
+width: 979px;
+height: 339px;
+left: 96px;
+top: 245px;
+background: url(image.png);
+}
+
+.catalog{
+    background: #FAFF03;
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    left: 433px;
+    top: 240px;
+    padding:15px;
+    border-radius:25px;
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #110202;
+    border:2px solid #f9cf29;
+}
+.catalog:hover{
+    background-color: gray;
+    color:white;
+    transition: 1s linear;
+    box-shadow: 3px 5px 2px 0 black;
+}
+.vidguk{
+    text-decoration: none;
+    position: absolute;
+    padding: 15px;
+    background: #FAFF03;
+    border-radius: 25px;
+    width: 88px;
+    height: 30px;
+    left: 679px;
+    top: 240px;
+    border:2px solid #f9cf29;
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+
+}
+.vidguk:hover{
+    background-color: gray;
+    color:rgb(255, 255, 255);
+    transition: 1s linear;
+    box-shadow: 3px 5px 2px 0 black;
+}
+.about{
+    background: #FAFF03;
+    border-radius: 25px;
+    /* Про нас */
+    padding: 15px;
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    left: 915px;
+    top: 240px;
+    text-decoration: none;
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    border:2px solid #f9cf29;
+
+    color: #040000;
+}
+.about:hover{
+    background-color: gray;
+    color:white;
+    transition: 1s linear;
+    box-shadow: 3px 5px 2px 0 black;
+}
+.us{
+
+    position: absolute;
+    width: 180px;
+    height: 56px;
+    left: 88px;
+    top: 820px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #B82222;
+
+
+}
+.info p{
+    /* Аврора- це мережа магазинів, які є практично в кажному місті України. В цьому магазині ви можете найти практично все. А саме головне низька ціна та якісний товар. */
+
+    position: absolute;
+    width: 484px;
+    height: 336px;
+    left: 83px;
+    top: 907px;
+
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #040000;
+
+
+}
+.info img{
+
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 784px;
+    top: 806px;
+
+    background: url(open-graph.png);
+
+}
+.tovar{
+
+    position: absolute;
+    width: 181px;
+    height: 56px;
+    left: 549px;
+    top: 1357px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #040000;
+
+
+}
+.coca{
+    /* Coca Cola */
+    position: absolute;
+    width: 150px;
+    height: 56px;
+    left: 100px;
+    top: 1700px;
+
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 56px;
+
+    color: #110202;
+
+
+}
+.felix{
+    /* Felix */
+
+    position: absolute;
+    width: 72px;
+    height: 56px;
+    left: 479px;
+    top: 1700px;
+
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 56px;
+
+    color: #040000;
+
+}
+.box{
+    /* Боксерські рукавиці */
+
+    position: absolute;
+    width: 281px;
+    height: 56px;
+    left: 859px;
+    top: 1700px;
+
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 56px;
+
+    color: #000000;
+
+
+}
+.yakuza{
+
+    position: absolute;
+    width: 325px;
+    height: 250px;
+    left: 100px;
+    top: 1499px;
+
+    background: url(292154526.png);
+
+}
+.text{
+
+    position: absolute;
+    width: 348px;
+    height: 69px;
+    left: 100px;
+    top: 1799px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #110202;
+
+}
+.sallary{
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    padding:15px;
+    color: #000000;
+    border:2px solid #f9cf29;
+    position: absolute;
+    width: 188px;
+    height: 31px;
+    left: 172px;
+    top: 1880px;
+
+    background: #FAFF03;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.sallary:hover{
+    background-color: gray;
+    color:white;
+    transition: 1s linear;
+    box-shadow: 3px 5px 2px 0 black;
+}
+.corm{
+
+position: absolute;
+width: 325px;
+height: 250px;
+left: 479px;
+top: 1499px;
+
+background: url(67282_001.png);
+
+}
+.text_1{
+    /* Корм для котів 85г */
+position: absolute;
+width: 216px;
+height: 26px;
+left: 532px;
+top: 1811px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+
+color: #110202;
+
+}
+.sallary1{
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+padding:15px;
+color: #000000;
+position: absolute;
+width: 187px;
+height: 31px;
+left: 557px;
+top: 1878px;
+background: #FAFF03;
+border-radius: 25px;
+text-align: center;
+border:2px solid #f9cf29;
+}
+.yakuza1{
+
+position: absolute;
+width: 325px;
+height: 250px;
+left: 859px;
+top: 1499px;
+
+background: url(105531_002.png);
+
+}
+.sallary1:hover{
+    background-color: gray;
+    color:white;
+    transition: 1s linear;
+    box-shadow: 3px 5px 2px 0 black;
+}
+.text2{
+position: absolute;
+width: 317px;
+height: 61px;
+left: 893px;
+top: 1811px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #110202;
+
+
+}
+.sallary3{
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+padding:15px;
+color: #000000;
+position: absolute;
+width: 187px;
+height: 31px;
+left: 923px;
+top: 1878px;
+border:2px solid #f9cf29;
+background: #FAFF03;
+border-radius: 25px;
+text-align: center;
+
+}
+.sallary3:hover{
+    background-color: gray;
+    color:white;
+    transition: 1s linear;
+    box-shadow: 3px 5px 2px 0 black;
+}
+.vidguk_1{
+position: absolute;
+width: 202px;
+height: 62px;
+left: 549px;
+top: 2061px;
+padding: 15px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 62px;
+text-align:center;
+color: #040000;
+border:2px solid #f9cf29;
+}
+.first{
+position: absolute;
+width: 190px;
+height: 190px;
+left: 232px;
+top: 2227px;
+
+background: url(завантаження (7).jpg);
+
+}
+.vidguk_1:hover{
+    background-color: gray;
+    color:white;
+    transition: 1s linear;
+    box-shadow: 3px 5px 2px 0 black;
+}
+.first_1{
+
+position: absolute;
+width: 524px;
+height: 172px;
+left: 549px;
+top: 2249px;
+
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+
+color: #520F0F;
+
+ 
+}
+.second{
+position: absolute;
+width: 190px;
+height: 190px;
+left: 217px;
+top: 2531px;
+
+background: url(завантаження (8).jpg);
+
+}
+.second_1{
+    
+position: absolute;
+width: 524px;
+height: 200px;
+left: 549px;
+top: 2536px;
+
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+
+color: #520F0F;
+
+}
+.cs{
+padding: 15px;
+background: #FAFF03;
+border-radius: 25px;
+/* Де нас знайти? */
+border:2px solid #f9cf29;
+position: absolute;
+width: 328px;
+height: 84px;
+left: 468px;
+top: 2855px;
+font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 84px;
+
+color: #000000;
+
+}
+.cs:hover{
+background-color: gray;
+    color:white;
+    transition: 1s linear;
+    box-shadow: 3px 5px 2px 0 black;
+}
+iframe{
+
+position: absolute;
+width: 670px;
+height: 500px;
+left: 325px;
+top: 3034px;
+z-index: 0;
+opacity: 0.8;
+background: url(image.png);
+
+}
+iframe:hover{
+    width: 750px;
+    height: 550px;
+    z-index: 1;
+    opacity: 1;
+    transition: 3s linear;
+}
+.adress{
+    /* Адреса */
+
+position: absolute;
+width: 118px;
+height: 36px;
+left: 581px;
+top: 3640px;
+
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 36px;
+
+color: #110202;
+
+
+}
+.top{
+    /* Місто Волочиськ вулиця Незалежності, 25 */
+
+position: absolute;
+width: 749px;
+height: 42px;
+left: 266px;
+top: 3736px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 42px;
+/* identical to box height */
+text-align: center;
+
+color: #520F0F;
+
+
+}
+.top1{
+
+position: absolute;
+width: 906px;
+height: 84px;
+left: 245px;
+top: 3838px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 42px;
+text-align: center;
+
+color: #110202;
+
+
+}
+footer{
+
+position: absolute;
+width: 1280px;
+height: 446px;
+left: 0px;
+top: 4027px;
+
+background: #FAFF03;
+
+}
+.contacts{
+    position: absolute;
+width: 297px;
+height: 42px;
+left: 3%;
+top: 3%;
+
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+
+color: #040000;
+
+
+}
+.h5{
+
+position: absolute;
+width: 217px;
+height: 38px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+top:10%;
+left: 3%;
+color: #000000;
+
+
+}
+.h5:hover{
+    font-size:40px;
+    color:rgb(219, 63, 63);
+    transition: 2s linear;
+}
+.soc{
+position: absolute;
+width: 174px;
+height: 38px;
+left: 5%;
+top: 40%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+text-align: center;
+
+color: #040000;
+
+
+}
+.footer-img{
+position: absolute;
+background: url(image.png);
+width: 70px;
+height: 70px;
+margin-right: 3%;
+left: 30%;
+top:40%;
+
+}
+.footer-img1{
+position: absolute;
+background: url(image.png);
+width: 70px;
+height: 70px;
+margin-right: 3%;
+left: 40%;
+top:40%;
+
+}
+.footer-img2{
+position: absolute;
+background: url(image.png);
+width: 70px;
+height: 70px;
+margin-right: 3%;
+left: 50%;
+top:40%;
+
+}
+.footer-img3{
+opacity: 0.8;
+height: 170px;
+z-index: 0;
+background: url(image.png);
+border-radius: 35px;
+position: absolute;
+left: 70%;
+top:15%;
+width: 15%;
+
+}
+.footer-img3:hover{
+    width: 20%;
+    height: 190px;
+    z-index: 1;
+    opacity: 1;
+    transition: 3s linear;
+}
+.vidguk_1{
+    color:navy;
+    background-color: yellow;
+    border-radius: 25px;
+}
+.sallary{
+    border-radius:25px;
+}
+.cho pisat{
+    height:50px;
+    width:50px;
+}
+.img{
+    width:700px;
+    height:450px;
+}
+
